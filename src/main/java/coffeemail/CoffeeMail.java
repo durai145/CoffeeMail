@@ -13,7 +13,7 @@ import java.util.Scanner;
 import coffeemail.config.ConfigManager;
 import coffeemail.module.ExtendedModule;
 
-public final class CoffeeMail {
+public  class CoffeeMail {
 
 	private final static String currentversion = "0.1.3";
 	public final static String name = "CoffeeMail";

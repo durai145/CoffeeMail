@@ -13,7 +13,7 @@ public class Util {
 
 	public static String generateRandomPassword() {
 		SecureRandom sr = new SecureRandom();
-		String letters = "abcdefghjkmnpqrstuvwxyzABCDEFGHJKMNPQRSTUVWXYZ234567890123456789&$%§!?=*_-#";
+		String letters = "abcdefghjkmnpqrstuvwxyzABCDEFGHJKMNPQRSTUVWXYZ234567890123456789&$%!?=*_-#";
 
 		String pw = "";
 		for (int i = 0; i < 20; i++) {
