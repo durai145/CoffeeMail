@@ -21,9 +21,14 @@ public class Translator {
 	}
 
 	public void load(String lang) {
+		// Scanner scan = new Scanner(this.getClass().getResourceAsStream(
+			//	"/coffeemail/lang/" + lang + ".lang"), "utf-8");
+
+		System.out.println(this.getClass().getResource("/"));
+		// Scanner scan = new Scanner("/Users/durai/workspace/CoffeeMail/src/main/java/coffeemail/lang/" + lang + ".lang"), "utf-8");
 		Scanner scan = null;
 		try {
-			scan = new Scanner(new FileInputStream(new File("/opt/heaerie/coffee/lang/" + lang + ".lang"))
+			scan = new Scanner(new FileInputStream(new File("/Users/durai/workspace/CoffeeMail/src/main/java/coffeemail/lang/" + lang + ".lang"))
 			   , "utf-8");
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
