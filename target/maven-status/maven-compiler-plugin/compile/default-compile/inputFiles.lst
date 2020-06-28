@@ -46,6 +46,7 @@
 /Users/durai/workspace/CoffeeMail/src/main/java/coffeemail/user/User.java
 /Users/durai/workspace/CoffeeMail/src/main/java/coffeemail/console/defaults/CommandUpdate.java
 /Users/durai/workspace/CoffeeMail/src/main/java/coffeemail/util/Util.java
+/Users/durai/workspace/CoffeeMail/src/main/java/Main.java
 /Users/durai/workspace/CoffeeMail/src/main/java/coffeemail/server/ReceiveClient.java
 /Users/durai/workspace/CoffeeMail/src/main/java/coffeemail/imap/MissingMXRecordException.java
 /Users/durai/workspace/CoffeeMail/src/main/java/coffeemail/module/event/module/ModuleLoadEvent.java

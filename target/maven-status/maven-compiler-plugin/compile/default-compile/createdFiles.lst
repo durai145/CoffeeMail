@@ -34,7 +34,9 @@ coffeemail/mail/content/MailContent.class
 coffeemail/exeptions/NoValidEmailAddressException.class
 coffeemail/mail/file/FileManager.class
 coffeemail/mail/file/MailManager.class
+Main$1.class
 coffeemail/module/annotation/ModuleName.class
+Main.class
 coffeemail/console/Command.class
 coffeemail/console/defaults/CommandDelete.class
 coffeemail/mail/content/FileConverter.class
