@@ -51,15 +51,7 @@ public class MailReceiveClient extends ReceiveClient {
 				} else {
 					SMTPCommand command = getSMTPCommand(s);
 					switch (command) {
-					case HELO:
-						if (lastcommand != SMTPCommand.NULL) {
-							throw new MailReceiveException(
-									"SMTPCommand no as expected!");
-						}
-						lastcommand = SMTPCommand.EHLO;
-						writeData("250 Hello " + getArgs(s));
-						break;
-					case EHLO:
+					case HELO: case EHLO:
 						if (lastcommand != SMTPCommand.NULL) {
 							throw new MailReceiveException(
 									"SMTPCommand no as expected!");
